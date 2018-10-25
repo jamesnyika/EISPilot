@@ -4,13 +4,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 22:22:54</sys_created_on>
-            <sys_id>f3235926dbd163008e9357935e96191c</sys_id>
+            <sys_created_on>2018-10-25 03:55:38</sys_created_on>
+            <sys_id>ca5f5a62db1963008e9357935e96197e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_category_rates" sys_domain="global" view="Default view">98a29de2dbd163008e9357935e961987</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 22:22:54</sys_updated_on>
+            <sys_updated_on>2018-10-25 03:55:38</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>number</element>
             <position>1</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 22:22:54</sys_created_on>
-            <sys_id>77235926dbd163008e9357935e96191c</sys_id>
+            <sys_created_on>2018-10-25 03:55:38</sys_created_on>
+            <sys_id>4e5f5a62db1963008e9357935e96197e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_category_rates" sys_domain="global" view="Default view">98a29de2dbd163008e9357935e961987</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 22:22:54</sys_updated_on>
+            <sys_updated_on>2018-10-25 03:55:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,27 +32,27 @@
             <element>gf</element>
             <position>2</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 22:22:54</sys_created_on>
-            <sys_id>f7235926dbd163008e9357935e96191c</sys_id>
+            <sys_created_on>2018-10-25 03:55:38</sys_created_on>
+            <sys_id>ce5f5a62db1963008e9357935e96197e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_category_rates" sys_domain="global" view="Default view">98a29de2dbd163008e9357935e961987</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 22:22:54</sys_updated_on>
+            <sys_updated_on>2018-10-25 03:55:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
+            <element>labor_category</element>
             <position>3</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 22:22:54</sys_created_on>
-            <sys_id>7b235926dbd163008e9357935e96191c</sys_id>
+            <sys_created_on>2018-10-25 03:55:38</sys_created_on>
+            <sys_id>425f5a62db1963008e9357935e96197f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_category_rates" sys_domain="global" view="Default view">98a29de2dbd163008e9357935e961987</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 22:22:54</sys_updated_on>
+            <sys_updated_on>2018-10-25 03:55:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>start_date</element>
             <position>4</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 22:22:54</sys_created_on>
-            <sys_id>fb235926dbd163008e9357935e96191c</sys_id>
+            <sys_created_on>2018-10-25 03:55:38</sys_created_on>
+            <sys_id>c25f5a62db1963008e9357935e96197f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_category_rates" sys_domain="global" view="Default view">98a29de2dbd163008e9357935e961987</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 22:22:54</sys_updated_on>
+            <sys_updated_on>2018-10-25 03:55:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,111 +74,97 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 22:22:54</sys_created_on>
-            <sys_id>7f235926dbd163008e9357935e96191c</sys_id>
+            <sys_created_on>2018-10-25 03:55:38</sys_created_on>
+            <sys_id>465f5a62db1963008e9357935e96197f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_category_rates" sys_domain="global" view="Default view">98a29de2dbd163008e9357935e961987</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 22:22:54</sys_updated_on>
+            <sys_updated_on>2018-10-25 03:55:38</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>name</element>
+            <element>active</element>
             <position>6</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 22:22:54</sys_created_on>
-            <sys_id>ff235926dbd163008e9357935e96191c</sys_id>
+            <sys_created_on>2018-10-25 03:55:38</sys_created_on>
+            <sys_id>c65f5a62db1963008e9357935e96197f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_category_rates" sys_domain="global" view="Default view">98a29de2dbd163008e9357935e961987</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 22:22:54</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>labor_category</element>
-            <position>7</position>
-            <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 22:22:54</sys_created_on>
-            <sys_id>73235926dbd163008e9357935e96191d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_category_rates" sys_domain="global" view="Default view">98a29de2dbd163008e9357935e961987</sys_ui_section>
-            <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 22:22:54</sys_updated_on>
+            <sys_updated_on>2018-10-25 03:55:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>base_cost</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 22:22:54</sys_created_on>
-            <sys_id>f3235926dbd163008e9357935e96191d</sys_id>
+            <sys_created_on>2018-10-25 03:55:38</sys_created_on>
+            <sys_id>4a5f5a62db1963008e9357935e96197f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_category_rates" sys_domain="global" view="Default view">98a29de2dbd163008e9357935e961987</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 22:22:54</sys_updated_on>
+            <sys_updated_on>2018-10-25 03:55:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>amount</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 22:22:54</sys_created_on>
-            <sys_id>77235926dbd163008e9357935e96191d</sys_id>
+            <sys_created_on>2018-10-25 03:55:38</sys_created_on>
+            <sys_id>ca5f5a62db1963008e9357935e96197f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_category_rates" sys_domain="global" view="Default view">98a29de2dbd163008e9357935e961987</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 22:22:54</sys_updated_on>
+            <sys_updated_on>2018-10-25 03:55:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>end_date</element>
-            <position>10</position>
+            <position>9</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 22:22:54</sys_created_on>
-            <sys_id>f7235926dbd163008e9357935e96191d</sys_id>
+            <sys_created_on>2018-10-25 03:55:38</sys_created_on>
+            <sys_id>4e5f5a62db1963008e9357935e96197f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_category_rates" sys_domain="global" view="Default view">98a29de2dbd163008e9357935e961987</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 22:22:54</sys_updated_on>
+            <sys_updated_on>2018-10-25 03:55:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>11</position>
+            <position>10</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 22:22:54</sys_created_on>
-            <sys_id>7b235926dbd163008e9357935e96191d</sys_id>
+            <sys_created_on>2018-10-25 03:55:38</sys_created_on>
+            <sys_id>ce5f5a62db1963008e9357935e96197f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_category_rates" sys_domain="global" view="Default view">98a29de2dbd163008e9357935e961987</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 22:22:54</sys_updated_on>
+            <sys_updated_on>2018-10-25 03:55:38</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>12</position>
+            <position>11</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 22:22:54</sys_created_on>
-            <sys_id>fb235926dbd163008e9357935e96191d</sys_id>
+            <sys_created_on>2018-10-25 03:55:38</sys_created_on>
+            <sys_id>425f5a62db1963008e9357935e961980</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_category_rates" sys_domain="global" view="Default view">98a29de2dbd163008e9357935e961987</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 22:22:54</sys_updated_on>
+            <sys_updated_on>2018-10-25 03:55:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
