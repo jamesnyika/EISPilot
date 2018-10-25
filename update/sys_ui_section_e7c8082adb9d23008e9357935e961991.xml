@@ -4,13 +4,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 16:57:55</sys_created_on>
-            <sys_id>abc8882adb9d23008e9357935e9619a1</sys_id>
+            <sys_created_on>2018-10-25 00:10:18</sys_created_on>
+            <sys_id>49cb656edb1563008e9357935e96199d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_categories" sys_domain="global" view="Default view">e7c8082adb9d23008e9357935e961991</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 16:57:55</sys_updated_on>
+            <sys_updated_on>2018-10-25 00:10:18</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,83 +18,83 @@
             <element>number</element>
             <position>1</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 16:57:55</sys_created_on>
-            <sys_id>2fc8882adb9d23008e9357935e9619a1</sys_id>
+            <sys_created_on>2018-10-25 00:10:18</sys_created_on>
+            <sys_id>c9cb656edb1563008e9357935e96199d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_categories" sys_domain="global" view="Default view">e7c8082adb9d23008e9357935e961991</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 16:57:55</sys_updated_on>
+            <sys_updated_on>2018-10-25 00:10:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>full_category_name</element>
+            <position>2</position>
+            <sys_created_by>jnyika</sys_created_by>
+            <sys_created_on>2018-10-25 00:10:18</sys_created_on>
+            <sys_id>4dcb656edb1563008e9357935e96199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_categories" sys_domain="global" view="Default view">e7c8082adb9d23008e9357935e961991</sys_ui_section>
+            <sys_updated_by>jnyika</sys_updated_by>
+            <sys_updated_on>2018-10-25 00:10:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 16:57:55</sys_created_on>
-            <sys_id>afc8882adb9d23008e9357935e9619a1</sys_id>
+            <sys_created_on>2018-10-25 00:10:18</sys_created_on>
+            <sys_id>cdcb656edb1563008e9357935e96199d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_categories" sys_domain="global" view="Default view">e7c8082adb9d23008e9357935e961991</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 16:57:55</sys_updated_on>
+            <sys_updated_on>2018-10-25 00:10:18</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>category_name</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 16:57:55</sys_created_on>
-            <sys_id>23c8882adb9d23008e9357935e9619a2</sys_id>
+            <sys_created_on>2018-10-25 00:10:18</sys_created_on>
+            <sys_id>41cb656edb1563008e9357935e96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_categories" sys_domain="global" view="Default view">e7c8082adb9d23008e9357935e961991</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 16:57:55</sys_updated_on>
+            <sys_updated_on>2018-10-25 00:10:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>4</position>
-            <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 16:57:55</sys_created_on>
-            <sys_id>a3c8882adb9d23008e9357935e9619a2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_categories" sys_domain="global" view="Default view">e7c8082adb9d23008e9357935e961991</sys_ui_section>
-            <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 16:57:55</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>minimum_experience</element>
             <position>5</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 16:57:55</sys_created_on>
-            <sys_id>27c8882adb9d23008e9357935e9619a2</sys_id>
+            <sys_created_on>2018-10-25 00:10:18</sys_created_on>
+            <sys_id>c1cb656edb1563008e9357935e96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_categories" sys_domain="global" view="Default view">e7c8082adb9d23008e9357935e961991</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 16:57:55</sys_updated_on>
+            <sys_updated_on>2018-10-25 00:10:18</sys_updated_on>
             <sys_user/>
-            <type/>
+            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>6</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 16:57:55</sys_created_on>
-            <sys_id>a7c8882adb9d23008e9357935e9619a2</sys_id>
+            <sys_created_on>2018-10-25 00:10:18</sys_created_on>
+            <sys_id>45cb656edb1563008e9357935e96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_categories" sys_domain="global" view="Default view">e7c8082adb9d23008e9357935e961991</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 16:57:55</sys_updated_on>
+            <sys_updated_on>2018-10-25 00:10:18</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>parent_category</element>
             <position>7</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 16:57:55</sys_created_on>
-            <sys_id>2bc8882adb9d23008e9357935e9619a2</sys_id>
+            <sys_created_on>2018-10-25 00:10:18</sys_created_on>
+            <sys_id>c5cb656edb1563008e9357935e96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_categories" sys_domain="global" view="Default view">e7c8082adb9d23008e9357935e961991</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 16:57:55</sys_updated_on>
+            <sys_updated_on>2018-10-25 00:10:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>category_level</element>
             <position>8</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 16:57:55</sys_created_on>
-            <sys_id>abc8882adb9d23008e9357935e9619a2</sys_id>
+            <sys_created_on>2018-10-25 00:10:18</sys_created_on>
+            <sys_id>49cb656edb1563008e9357935e96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_categories" sys_domain="global" view="Default view">e7c8082adb9d23008e9357935e961991</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 16:57:55</sys_updated_on>
+            <sys_updated_on>2018-10-25 00:10:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>.split</element>
             <position>9</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 16:57:55</sys_created_on>
-            <sys_id>2fc8882adb9d23008e9357935e9619a2</sys_id>
+            <sys_created_on>2018-10-25 00:10:18</sys_created_on>
+            <sys_id>c9cb656edb1563008e9357935e96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_categories" sys_domain="global" view="Default view">e7c8082adb9d23008e9357935e961991</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 16:57:55</sys_updated_on>
+            <sys_updated_on>2018-10-25 00:10:18</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -144,29 +144,57 @@
             <element>education_level</element>
             <position>10</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 16:57:55</sys_created_on>
-            <sys_id>afc8882adb9d23008e9357935e9619a2</sys_id>
+            <sys_created_on>2018-10-25 00:10:18</sys_created_on>
+            <sys_id>4dcb656edb1563008e9357935e96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_categories" sys_domain="global" view="Default view">e7c8082adb9d23008e9357935e961991</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 16:57:55</sys_updated_on>
+            <sys_updated_on>2018-10-25 00:10:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>11</position>
+            <sys_created_by>jnyika</sys_created_by>
+            <sys_created_on>2018-10-25 00:10:18</sys_created_on>
+            <sys_id>cdcb656edb1563008e9357935e96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_categories" sys_domain="global" view="Default view">e7c8082adb9d23008e9357935e961991</sys_ui_section>
+            <sys_updated_by>jnyika</sys_updated_by>
+            <sys_updated_on>2018-10-25 00:10:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>jnyika</sys_created_by>
-            <sys_created_on>2018-10-24 16:57:55</sys_created_on>
-            <sys_id>23c8882adb9d23008e9357935e9619a3</sys_id>
+            <sys_created_on>2018-10-25 00:10:18</sys_created_on>
+            <sys_id>41cb656edb1563008e9357935e96199f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_categories" sys_domain="global" view="Default view">e7c8082adb9d23008e9357935e961991</sys_ui_section>
             <sys_updated_by>jnyika</sys_updated_by>
-            <sys_updated_on>2018-10-24 16:57:55</sys_updated_on>
+            <sys_updated_on>2018-10-25 00:10:18</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>minimum_experience</element>
+            <position>13</position>
+            <sys_created_by>jnyika</sys_created_by>
+            <sys_created_on>2018-10-25 00:10:18</sys_created_on>
+            <sys_id>c1cb656edb1563008e9357935e96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nnemc0_labor_categories" sys_domain="global" view="Default view">e7c8082adb9d23008e9357935e961991</sys_ui_section>
+            <sys_updated_by>jnyika</sys_updated_by>
+            <sys_updated_on>2018-10-25 00:10:18</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
