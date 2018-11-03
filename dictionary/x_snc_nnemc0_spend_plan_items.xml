@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Spend Plan Items" max_length="40" name="x_snc_nnemc0_spend_plan_items" type="collection">
+        <element label="Appropriation" max_length="32" name="appn" reference="x_snc_nnemc0_appn" type="reference"/>
+        <element label="Demand" max_length="32" name="demand" reference="dmn_demand" type="reference"/>
+        <element label="Fiscal Year" max_length="32" name="fiscal_year" reference="fiscal_period" type="reference"/>
+        <element label="Funding Status" max_length="32" name="funding_status" reference="x_snc_nnemc0_funding_status" type="reference"/>
+        <element label="GWBS" max_length="32" name="gwbs" reference="x_snc_nnemc0_gwbs" type="reference"/>
+        <element label="Line Number" max_length="40" name="line_number" type="integer"/>
+        <element choice="1" label="Monthly Recurring Cost - New" max_length="40" name="monthly_recurring_costs_new" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Monthly Recurring Cost - Rollover CLIN" max_length="40" name="monthly_recurring_costs_rollover_clin" type="choice">
+            <choice/>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Obligated Amount" max_length="20" name="obligated_amount" type="currency"/>
+        <element label="Plan Amount" max_length="20" name="plan_amount" type="currency"/>
+        <element label="Project" max_length="32" name="project" reference="pm_project" type="reference"/>
+        <element label="Project Name" max_length="300" name="project_name" type="string"/>
+        <element label="Project Status" max_length="32" name="project_status" reference="x_snc_nnemc0_project_status" type="reference"/>
+        <element label="Remaning Balance" max_length="20" name="remaining_balance" type="currency"/>
+        <element label="Requirement Driver" max_length="32" name="requirement_driver" reference="x_snc_nnemc0_requirement_driver" type="reference"/>
+        <element label="Requirement Traceability" max_length="32" name="requirement_traceability" reference="x_snc_nnemc0_requirement_traceability" type="reference"/>
+        <element label="Service Area" max_length="32" name="service_area" reference="x_snc_nnemc0_service_areas" type="reference"/>
+        <element label="Service Cost Area" max_length="32" name="service_cost_area" reference="x_snc_nnemc0_service_cost_area" type="reference"/>
+        <element label="Service Owner" max_length="32" name="service_owner" reference="x_snc_nnemc0_service_owner" type="reference"/>
+        <element label="Service Owner Priority Level" max_length="32" name="service_owner_priority_level" reference="x_snc_nnemc0_service_owner_priority_levels" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Vendor" max_length="32" name="vendor" reference="x_snc_nnemc0_vendor" type="reference"/>
+        <element label="CLIN Number" max_length="40" name="x_clin_number" type="string"/>
+        <element label="Contract Number" max_length="40" name="x_contract_number" type="string"/>
+        <element label="ERP WBS" max_length="60" name="x_erp_wbs" type="string"/>
+        <element label="Period of Performance" max_length="80" name="x_period_of_performance" type="string"/>
+        <element label="PM Priority Level" max_length="40" name="x_pm_priority_level" type="string"/>
+        <element label="Program Description" max_length="2000" name="x_program_description" type="string"/>
+        <element label="RAPT Number" max_length="40" name="x_rapt_number" type="string"/>
+        <element label="Task Order Number" max_length="40" name="x_task_order_number" type="string"/>
+        <index name="index">
+            <element name="appn"/>
+        </index>
+        <index name="index2">
+            <element name="service_owner_priority_level"/>
+        </index>
+        <index name="index3">
+            <element name="requirement_driver"/>
+        </index>
+        <index name="index4">
+            <element name="service_owner"/>
+        </index>
+        <index name="index5">
+            <element name="project_status"/>
+        </index>
+        <index name="index6">
+            <element name="project"/>
+        </index>
+        <index name="index7">
+            <element name="demand"/>
+        </index>
+        <index name="index8">
+            <element name="service_cost_area"/>
+        </index>
+        <index name="index9">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index10">
+            <element name="requirement_traceability"/>
+        </index>
+        <index name="index11">
+            <element name="gwbs"/>
+        </index>
+        <index name="index12">
+            <element name="fiscal_year"/>
+        </index>
+        <index name="index13">
+            <element name="vendor"/>
+        </index>
+        <index name="index14">
+            <element name="service_area"/>
+        </index>
+        <index name="index15">
+            <element name="funding_status"/>
+        </index>
+    </element>
+</database>
