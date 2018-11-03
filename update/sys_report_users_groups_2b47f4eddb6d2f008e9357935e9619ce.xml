@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="BIU - All Requirements">a347f4eddb6d2f008e9357935e9619ce</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>jnyika</sys_created_by>
+        <sys_created_on>2018-11-03 04:02:51</sys_created_on>
+        <sys_id>2b47f4eddb6d2f008e9357935e9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a347f4eddb6d2f008e9357935e9619ce</sys_name>
+        <sys_package display_value="NNEMC0" source="x_snc_nnemc0">c814a9111320e7403e1554022244b0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NNEMC0">c814a9111320e7403e1554022244b0f9</sys_scope>
+        <sys_update_name>sys_report_users_groups_2b47f4eddb6d2f008e9357935e9619ce</sys_update_name>
+        <sys_updated_by>jnyika</sys_updated_by>
+        <sys_updated_on>2018-11-03 04:02:51</sys_updated_on>
+        <user_id display_value="James Nyika">70645b4bdb121300b8b3ffb41d961949</user_id>
+    </sys_report_users_groups>
+</record_update>
