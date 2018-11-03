@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.spend-plan-header {
+  display: table-cell;
+  background-color: #0D2836;
+  color: #A6B0B9; 
+  margin:0;
+  padding: 20px;
+  width: 100%; 
+  height: 170px;
+  vertical-align: middle;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  border-bottom: 1px solid #A6B0B9  
+  
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>common-dashboardheader</id>
+        <internal>false</internal>
+        <link/>
+        <name>Common-DashboardHeader</name>
+        <option_schema>[{"hint":"Name of the header","name":"title","section":"other","default_value":"Overview","label":"Title","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>jnyika</sys_created_by>
+        <sys_created_on>2018-11-01 02:58:51</sys_created_on>
+        <sys_id>2a751af8db696b00d6f4ff561d9619f0</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Common-DashboardHeader</sys_name>
+        <sys_package display_value="NNEMC0" source="x_snc_nnemc0">c814a9111320e7403e1554022244b0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NNEMC0">c814a9111320e7403e1554022244b0f9</sys_scope>
+        <sys_update_name>sp_widget_2a751af8db696b00d6f4ff561d9619f0</sys_update_name>
+        <sys_updated_by>jnyika</sys_updated_by>
+        <sys_updated_on>2018-11-01 03:40:24</sys_updated_on>
+        <template><![CDATA[<div class="spend-plan-header">
+<h1>
+  	Spend Plan Dashboard
+  </h1>
+</div>]]></template>
+    </sp_widget>
+</record_update>

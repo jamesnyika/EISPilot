@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="Common-Tabs - Test Page - Container 1">8edf0a74db696b00d6f4ff561d9619a3</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>jnyika</sys_created_by>
+        <sys_created_on>2018-11-01 02:34:15</sys_created_on>
+        <sys_id>4adf0a74db696b00d6f4ff561d9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="NNEMC0" source="x_snc_nnemc0">c814a9111320e7403e1554022244b0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NNEMC0">c814a9111320e7403e1554022244b0f9</sys_scope>
+        <sys_update_name>sp_row_4adf0a74db696b00d6f4ff561d9619a5</sys_update_name>
+        <sys_updated_by>jnyika</sys_updated_by>
+        <sys_updated_on>2018-11-01 02:34:15</sys_updated_on>
+    </sp_row>
+</record_update>

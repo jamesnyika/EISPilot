@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function DynamicTabsController(tabService) {
+  var c = this;
+
+  c.$onInit = function() {
+    c.selectedTab = 'expired';
+		
+    c.tabs = tabService.getTabs();
+  };
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.vms-status-tabs {
+  .small-text {
+    font-size: 10px;
+    color: #595959;
+    text-transform: uppercase;
+  }
+  .light-grey-bg {
+    background: #f9f9f9;
+  }
+  .people-card-media {
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    float: left;
+    margin: 0px;
+    .flex-it-align-top {
+      display: flex;
+      justify-content: space-between;
+    }
+    .media-left {
+      .list__photo {
+        width: 35px;
+        height: 35px;
+      }
+      .initials-badge {
+        min-width: 36px;
+        float: left;
+        margin-top: 0px;
+        border-radius: 50%;
+        line-height: 1;
+        font-size: 14px;
+        margin-left: 0px;
+        padding: 10px 10px;
+        font-weight: 300;
+        background: #AEB2B3;
+      }
+    }
+  }
+  .three-tabs {
+    .orange {
+      color: #e89033;
+    }
+    .green {
+      color: #70be5a;
+    }
+    .red {
+      color: #ff4000;
+    }
+    .bg-green {
+      background: #70be5a !important;
+    }
+    .bg-red {
+      background: #ff4000 !important;
+    }
+    .bg-orange {
+      background: #e89033;
+    }
+    .all-tabs {
+      display: flex;
+      padding: 10px;
+      .each-tab {
+        width: 33.3%;
+        float: left;
+        text-align: center;
+        padding: 20px 10px;
+        background: #fff;
+        border-bottom: 1px solid #e4e5e6;
+        &amp;.active {
+          background: #f2f2f2;
+          border-left: 0px;
+          border-bottom: 0px;
+          border-right: 0px;
+          border-bottom: 1px solid #d31a1e;
+          .name {
+            color: #d31a1e;
+          }
+        }
+        p {
+          margin-bottom: 0px;
+        }
+        .name {
+          font-size: 12px;
+          font-weight: bold;
+          color: #909090;
+          text-transform: uppercase; //background: #fbfbfb;
+        }
+        .fa {
+          color: #b4b2b3;
+        }
+      }
+    }
+    .tab-details {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .flex-it {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .svg-icon {
+        height: 23px;
+        width: 27px;
+        fill: #9C9C9C;
+      }
+      p {
+        margin-left: 5px;
+        margin-bottom: 0px;
+      }
+      .detail-numbers {
+        font-size: 18px;
+        color: #595959;
+      }
+    }
+  }
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data>var tabs = {
+  firstTab: {
+    name: 'Reclaimed vms',
+    badgeNumber: 15,
+    badgeColor: 'bg-red'
+  },
+  secondTab: {
+    name: 'Expiring soon',
+    badgeNumber: 5,
+    badgeColor: 'bg-orange'
+  },
+  thirdTab: {
+    name: 'new vms',
+    badgeNumber: 10,
+    badgeColor: 'bg-green'
+  }
+};</demo_data>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>common-tabs</id>
+        <internal>false</internal>
+        <link/>
+        <name>Common-Tabs</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>jnyika</sys_created_by>
+        <sys_created_on>2018-11-01 02:34:14</sys_created_on>
+        <sys_id>82df8a34db696b00d6f4ff561d96190c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Common-Tabs</sys_name>
+        <sys_package display_value="NNEMC0" source="x_snc_nnemc0">c814a9111320e7403e1554022244b0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NNEMC0">c814a9111320e7403e1554022244b0f9</sys_scope>
+        <sys_update_name>sp_widget_82df8a34db696b00d6f4ff561d96190c</sys_update_name>
+        <sys_updated_by>jnyika</sys_updated_by>
+        <sys_updated_on>2018-11-01 02:55:30</sys_updated_on>
+        <template><![CDATA[<div class="vms-status-tabs">
+  <div class="three-tabs row">
+    <div class="all-tabs">
+      <div class="each-tab" ng-click="c.selectedTab = 'expired'" ng-class="{'active': c.selectedTab === 'expired'}">
+        <p class="badge circle-badge" ng-class="c.tabs.firstTab.badgeColor">{{::c.tabs.firstTab.badgeNumber}}</p>
+        <p class="name">{{::c.tabs.firstTab.name}}</p>
+      </div>
+      <div class="each-tab" ng-click="c.selectedTab = 'expiring'" ng-class="{'active': c.selectedTab === 'expiring'}">
+        <p class="badge circle-badge" ng-class="c.tabs.secondTab.badgeColor">{{::c.tabs.secondTab.badgeNumber}}</p>
+        <p class="name">{{::c.tabs.secondTab.name}}</p>
+      </div>
+      <div class="each-tab" ng-click="c.selectedTab = 'new'" ng-class="{'active': c.selectedTab === 'new'}">
+        <p class="badge circle-badge" ng-class="c.tabs.thirdTab.badgeColor">{{::c.tabs.thirdTab.badgeNumber}}</p>
+        <p class="name">{{::c.tabs.thirdTab.name}}</p>
+      </div>
+    </div>
+    <div class="tab-details">
+      <div ng-show="c.selectedTab === 'expired'">
+        <div class="tab-details" ng-class-even="'light-grey-bg'">
+          <p>Tab 1</p>
+        </div>
+      </div>
+      <div ng-show="c.selectedTab === 'expiring'">
+        <div class="tab-details" ng-class-even="'light-grey-bg'">
+          <p>Tab 2</p>
+        </div>
+      </div>
+      <div ng-show="c.selectedTab === 'new'">
+        <div class="tab-details" ng-class-even="'light-grey-bg'">
+          <p>Tab 3</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

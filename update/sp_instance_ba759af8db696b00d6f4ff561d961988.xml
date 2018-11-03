@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">fe751af8db696b00d6f4ff561d9619f8</sp_column>
+        <sp_widget display_value="Common-DashboardHeader">2a751af8db696b00d6f4ff561d9619f0</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>jnyika</sys_created_by>
+        <sys_created_on>2018-11-01 02:58:52</sys_created_on>
+        <sys_id>ba759af8db696b00d6f4ff561d961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NNEMC0" source="x_snc_nnemc0">c814a9111320e7403e1554022244b0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NNEMC0">c814a9111320e7403e1554022244b0f9</sys_scope>
+        <sys_update_name>sp_instance_ba759af8db696b00d6f4ff561d961988</sys_update_name>
+        <sys_updated_by>jnyika</sys_updated_by>
+        <sys_updated_on>2018-11-01 02:58:52</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=ba759af8db696b00d6f4ff561d961988"/>
+</record_update>

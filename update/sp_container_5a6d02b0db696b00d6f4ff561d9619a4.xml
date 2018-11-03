@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>205-SpendPlanOverview - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="205_spendplanoverview">9e6d02b0db696b00d6f4ff561d9619a1</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>jnyika</sys_created_by>
+        <sys_created_on>2018-11-01 02:23:36</sys_created_on>
+        <sys_id>5a6d02b0db696b00d6f4ff561d9619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>205-SpendPlanOverview - Container 1</sys_name>
+        <sys_package display_value="NNEMC0" source="x_snc_nnemc0">c814a9111320e7403e1554022244b0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NNEMC0">c814a9111320e7403e1554022244b0f9</sys_scope>
+        <sys_update_name>sp_container_5a6d02b0db696b00d6f4ff561d9619a4</sys_update_name>
+        <sys_updated_by>jnyika</sys_updated_by>
+        <sys_updated_on>2018-11-01 02:23:36</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>
