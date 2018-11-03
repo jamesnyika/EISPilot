@@ -7,10 +7,16 @@
         <element label="GWBS" max_length="32" name="gwbs" reference="x_snc_nnemc0_gwbs" type="reference"/>
         <element label="Line Number" max_length="40" name="line_number" type="integer"/>
         <element choice="1" label="Monthly Recurring Cost - New" max_length="40" name="monthly_recurring_costs_new" type="choice">
-            <choice/>
+            <choice>
+                <element hint="This cost is not funded" inactive_on_update="false" label="No" value="No"/>
+                <element hint="This cost is funded" inactive_on_update="false" label="Yes" value="Yes"/>
+            </choice>
         </element>
         <element choice="1" label="Monthly Recurring Cost - Rollover CLIN" max_length="40" name="monthly_recurring_costs_rollover_clin" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="No" value="No"/>
+                <element hint="This cost is funded" inactive_on_update="false" label="Yes" value="Yes"/>
+            </choice>
         </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Obligated Amount" max_length="20" name="obligated_amount" type="currency"/>

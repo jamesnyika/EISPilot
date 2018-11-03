@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>59b8a06ddb2d2f008e9357935e9619f2</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_nnemc0_spend_plan_items">
+    <x_snc_nnemc0_spend_plan_items action="INSERT_OR_UPDATE">
+        <appn display_value="Operations &amp; Maintenance, Navy">abece7d6db1d23008e9357935e9619d8</appn>
+        <demand/>
+        <fiscal_year display_value="FY18: Nov">cab00960873002003ff35d88e3e3ec8b</fiscal_year>
+        <funding_status display_value="Unfunded">e6b7d75213346380f60ebccf3244b059</funding_status>
+        <gwbs display_value="2.1.1 Hardware (Prod)">23158176db91a3008e9357935e96197c</gwbs>
+        <line_number>1</line_number>
+        <monthly_recurring_costs_new>No</monthly_recurring_costs_new>
+        <monthly_recurring_costs_rollover_clin>No</monthly_recurring_costs_rollover_clin>
+        <number>SPLN0001001</number>
+        <obligated_amount>0</obligated_amount>
+        <plan_amount>356000</plan_amount>
+        <project/>
+        <project_name>Hardware Purchase for New Capability</project_name>
+        <project_status/>
+        <remaining_balance>0</remaining_balance>
+        <requirement_driver display_value="New Capability">9f39df9213346380f60ebccf3244b0e9</requirement_driver>
+        <requirement_traceability display_value="Enhancement Capabilities">456dd39613346380f60ebccf3244b05a</requirement_traceability>
+        <service_area display_value="IT Infrastructure">42dbdf1613346380f60ebccf3244b09d</service_area>
+        <service_cost_area display_value="NMCI Enterprise Service Tools">529e93d613346380f60ebccf3244b04b</service_cost_area>
+        <service_owner/>
+        <service_owner_priority_level/>
+        <sys_class_name>x_snc_nnemc0_spend_plan_items</sys_class_name>
+        <sys_created_by>jnyika</sys_created_by>
+        <sys_created_on>2018-11-03 03:06:01</sys_created_on>
+        <sys_id>59b8a06ddb2d2f008e9357935e9619f2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>jnyika</sys_updated_by>
+        <sys_updated_on>2018-11-03 03:11:18</sys_updated_on>
+        <vendor display_value="DXC / Perspecta">f607af5e13346380f60ebccf3244b027</vendor>
+        <x_clin_number>CLN5000</x_clin_number>
+        <x_contract_number/>
+        <x_erp_wbs/>
+        <x_period_of_performance>Undetermined</x_period_of_performance>
+        <x_pm_priority_level>Not Set</x_pm_priority_level>
+        <x_program_description/>
+        <x_rapt_number/>
+        <x_task_order_number/>
+    </x_snc_nnemc0_spend_plan_items>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>jnyika</sys_created_by>
+        <sys_created_on>2018-11-03 03:12:30</sys_created_on>
+        <sys_id>b1cb2c21db6d2f008e9357935e961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SPLN0001001</sys_name>
+        <sys_package display_value="NNEMC0" source="x_snc_nnemc0">c814a9111320e7403e1554022244b0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NNEMC0">c814a9111320e7403e1554022244b0f9</sys_scope>
+        <sys_update_name>sys_metadata_link_b1cb2c21db6d2f008e9357935e961953</sys_update_name>
+        <sys_updated_by>jnyika</sys_updated_by>
+        <sys_updated_on>2018-11-03 03:12:30</sys_updated_on>
+        <tablename>x_snc_nnemc0_spend_plan_items</tablename>
+    </sys_metadata_link>
+</record_update>
