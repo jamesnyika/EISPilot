@@ -24,13 +24,19 @@
         <element label="Project" max_length="32" name="project" reference="pm_project" type="reference"/>
         <element label="Project Name" max_length="300" name="project_name" type="string"/>
         <element label="Project Status" max_length="32" name="project_status" reference="x_snc_nnemc0_project_status" type="reference"/>
-        <element label="Remaning Balance" max_length="20" name="remaining_balance" type="currency"/>
+        <element label="Remaining Balance" max_length="20" name="remaining_balance" type="currency"/>
         <element label="Requirement Driver" max_length="32" name="requirement_driver" reference="x_snc_nnemc0_requirement_driver" type="reference"/>
         <element label="Requirement Traceability" max_length="32" name="requirement_traceability" reference="x_snc_nnemc0_requirement_traceability" type="reference"/>
         <element label="Service Area" max_length="32" name="service_area" reference="x_snc_nnemc0_service_areas" type="reference"/>
         <element label="Service Cost Area" max_length="32" name="service_cost_area" reference="x_snc_nnemc0_service_cost_area" type="reference"/>
         <element label="Service Owner" max_length="32" name="service_owner" reference="x_snc_nnemc0_service_owner" type="reference"/>
         <element label="Service Owner Priority Level" max_length="32" name="service_owner_priority_level" reference="x_snc_nnemc0_service_owner_priority_levels" type="reference"/>
+        <element choice="1" label="Signal Type" max_length="40" name="signal_type" type="choice">
+            <choice>
+                <element hint="This spend plan item relates to a demand" inactive_on_update="false" label="Demand" value="Demand"/>
+                <element hint="This spend plan item relates to a Project" inactive_on_update="false" label="Project" value="Project"/>
+            </choice>
+        </element>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Vendor" max_length="32" name="vendor" reference="x_snc_nnemc0_vendor" type="reference"/>
         <element label="CLIN Number" max_length="40" name="x_clin_number" type="string"/>

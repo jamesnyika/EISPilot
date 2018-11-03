@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="signal_type" table="x_snc_nnemc0_spend_plan_items" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>signal_type</element>
+            <hint>This spend plan item relates to a demand</hint>
+            <inactive>false</inactive>
+            <label>Demand</label>
+            <language>en</language>
+            <name>x_snc_nnemc0_spend_plan_items</name>
+            <sequence/>
+            <sys_created_by>jnyika</sys_created_by>
+            <sys_created_on>2018-11-03 03:19:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca4de8a1db6d2f008e9357935e9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jnyika</sys_updated_by>
+            <sys_updated_on>2018-11-03 03:19:28</sys_updated_on>
+            <value>Demand</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>signal_type</element>
+            <hint>This spend plan item relates to a Project</hint>
+            <inactive>false</inactive>
+            <label>Project</label>
+            <language>en</language>
+            <name>x_snc_nnemc0_spend_plan_items</name>
+            <sequence/>
+            <sys_created_by>jnyika</sys_created_by>
+            <sys_created_on>2018-11-03 03:20:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>466de8a1db6d2f008e9357935e961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jnyika</sys_updated_by>
+            <sys_updated_on>2018-11-03 03:20:04</sys_updated_on>
+            <value>Project</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>signal_type</element>
+            <name>x_snc_nnemc0_spend_plan_items</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>jnyika</sys_created_by>
+            <sys_created_on>2018-11-03 03:19:28</sys_created_on>
+            <sys_id>4c6de8a1db6d2f008e9357935e9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>signal_type</sys_name>
+            <sys_package display_value="NNEMC0" source="x_snc_nnemc0">c814a9111320e7403e1554022244b0f9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NNEMC0">c814a9111320e7403e1554022244b0f9</sys_scope>
+            <sys_update_name>sys_choice_x_snc_nnemc0_spend_plan_items_signal_type</sys_update_name>
+            <sys_updated_by>jnyika</sys_updated_by>
+            <sys_updated_on>2018-11-03 03:19:28</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
