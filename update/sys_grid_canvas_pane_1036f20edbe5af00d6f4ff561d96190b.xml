@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA New Tab">f8de8d2ddbed2f008e9357935e96194f</grid_canvas>
-        <height>3</height>
-        <portal_widget display_value="Created 2018-11-03 01:48:44">e28f0d6ddbed2f008e9357935e961958</portal_widget>
-        <posx>0</posx>
+        <height>6</height>
+        <portal_widget display_value="Created 2018-11-04 21:34:11">0036f20edbe5af00d6f4ff561d961908</portal_widget>
+        <posx>9</posx>
         <posy>0</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
         <sys_created_by>jnyika</sys_created_by>
-        <sys_created_on>2018-11-03 05:48:44</sys_created_on>
-        <sys_id>6a8f0d6ddbed2f008e9357935e96195b</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_created_on>2018-11-05 02:34:11</sys_created_on>
+        <sys_id>1036f20edbe5af00d6f4ff561d96190b</sys_id>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>f8de8d2ddbed2f008e9357935e96194f</sys_name>
         <sys_package display_value="NNEMC0" source="x_snc_nnemc0">c814a9111320e7403e1554022244b0f9</sys_package>
         <sys_policy/>
         <sys_scope display_value="NNEMC0">c814a9111320e7403e1554022244b0f9</sys_scope>
-        <sys_update_name>sys_grid_canvas_pane_6a8f0d6ddbed2f008e9357935e96195b</sys_update_name>
+        <sys_update_name>sys_grid_canvas_pane_1036f20edbe5af00d6f4ff561d96190b</sys_update_name>
         <sys_updated_by>jnyika</sys_updated_by>
-        <sys_updated_on>2018-11-05 03:20:51</sys_updated_on>
+        <sys_updated_on>2018-11-05 03:21:16</sys_updated_on>
         <width>3</width>
     </sys_grid_canvas_pane>
 </record_update>

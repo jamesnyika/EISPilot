@@ -3,20 +3,20 @@
         <grid_canvas display_value="PA New Tab">f8de8d2ddbed2f008e9357935e96194f</grid_canvas>
         <height>3</height>
         <portal_widget display_value="Created 2018-11-03 02:05:41">be6351a1db216f008e9357935e96195a</portal_widget>
-        <posx>8</posx>
+        <posx>6</posx>
         <posy>0</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
         <sys_created_by>jnyika</sys_created_by>
         <sys_created_on>2018-11-03 06:05:41</sys_created_on>
         <sys_id>3a6351a1db216f008e9357935e96195d</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>f8de8d2ddbed2f008e9357935e96194f</sys_name>
         <sys_package display_value="NNEMC0" source="x_snc_nnemc0">c814a9111320e7403e1554022244b0f9</sys_package>
         <sys_policy/>
         <sys_scope display_value="NNEMC0">c814a9111320e7403e1554022244b0f9</sys_scope>
         <sys_update_name>sys_grid_canvas_pane_3a6351a1db216f008e9357935e96195d</sys_update_name>
         <sys_updated_by>jnyika</sys_updated_by>
-        <sys_updated_on>2018-11-05 02:12:08</sys_updated_on>
-        <width>4</width>
+        <sys_updated_on>2018-11-05 03:21:05</sys_updated_on>
+        <width>3</width>
     </sys_grid_canvas_pane>
 </record_update>
