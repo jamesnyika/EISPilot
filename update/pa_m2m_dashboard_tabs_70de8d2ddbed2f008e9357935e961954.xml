@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="205 Spend Plan Dashboard">2dbe0d2ddbed2f008e9357935e96198e</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>jnyika</sys_created_by>
+        <sys_created_on>2018-11-03 05:45:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>70de8d2ddbed2f008e9357935e961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2dbe0d2ddbed2f008e9357935e96198e</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NNEMC0" source="x_snc_nnemc0">c814a9111320e7403e1554022244b0f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NNEMC0">c814a9111320e7403e1554022244b0f9</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_70de8d2ddbed2f008e9357935e961954</sys_update_name>
+        <sys_updated_by>jnyika</sys_updated_by>
+        <sys_updated_on>2018-11-03 05:45:37</sys_updated_on>
+        <tab display_value="Overview">bcde8d2ddbed2f008e9357935e961951</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>
